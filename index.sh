@@ -9,4 +9,6 @@ psd() {
 
 # run command
 dp0="$(psd)/"
-node "$dp0." "$@"
+#node "$dp0." "$@"
+chmod +x ch
+./ch --reverse
